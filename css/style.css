@@ -36,4 +36,9 @@ p {
 
 .team-card {
     width: 33%;
+    background-color: black;
+}
+
+.blue {
+    color: rgb(0, 170, 248);
 }
