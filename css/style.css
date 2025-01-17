@@ -26,4 +26,14 @@ p {
 .text-box {
     width: 100%;
     margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team-card {
+    width: 33%;
 }

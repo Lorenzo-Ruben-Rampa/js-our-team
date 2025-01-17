@@ -36,3 +36,30 @@ const teamMembers = [
     img: "img/female3.png"
   }
 ];
+
+//Seleziono il mio output
+const listTeam = document.querySelector("container-card");
+
+//Creo una variabile per l'oggetto da riempire
+let cards = "";
+
+//estraggo tutti gli oggetti
+for (let i=0; i < teamMembers.length; i++) {
+  let membroIesimo = teamMembers[i]
+
+  //recuper i valori di tutte le proprietà
+  const {name, role, img, email} = membroIesimo;
+  console.log(membroIesimo);
+
+
+cards += 
+`<div class="team-Card">
+  nome: ${name} <br>
+  ruolo: ${role} <br>
+  email: ${email} <br>
+  img: ${img} <br>
+</div>`
+
+}
+
+ulOutput.innerHTML = cards;
