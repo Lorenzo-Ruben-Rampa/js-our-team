@@ -9,7 +9,16 @@ h1 {
     height: 30px;
 }
 
-p {
+h2, h3 {
+    color: white;
+}
+
+img {
+    width: 100px;
+    height: 100%;
+}
+
+.centered {
     text-align: center;
 }
 
@@ -35,8 +44,19 @@ p {
 }
 
 .team-card {
-    width: 33%;
+    width: 30%;
     background-color: black;
+    display: flex;
+    margin: 20px;
+}
+
+.team-image {
+    width: 25%;
+}
+
+.team-text {
+    width: 75%;
+    padding-top: 10px;
 }
 
 .blue {

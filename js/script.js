@@ -53,13 +53,15 @@ for (let i=0; i < teamMembers.length; i++) {
 
 
 cards += 
-`<div class="team-Card">
+`<div class="team-card">
   <div class="team-image">
     <img src="${img}" alt="${name}">
   </div>
-  <h2>${name}</h2>
-  <h3>${role}</h3>
-  <p class="blue">${email}</p>
+  <div class="team-text">
+    <h2>${name}</h2>
+    <h3>${role}</h3>
+    <p class="blue">${email}</p>
+  </div>
 </div>`
 
 }
